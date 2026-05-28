@@ -8,8 +8,6 @@
 > Comfort Ilevbare, Jesujoba Alabi, David Ifeoluwa Adelani, Firdous Bakare, Oluwatoyin Abiola, Oluwaseyi Adeyemo
 > *Proceedings of the 8th Workshop on Online Abuse and Harms (WOAH 2024), pages 28–37, Mexico City, Mexico.*
 
-
-
 ## Overview
 
 **EkoHate** is an abusive language and hate speech dataset built around political discussions on Nigerian Twitter (now X). The name draws from *Eko*, the Yoruba name for Lagos, Nigeria's most populous and economically significant state, and the focal point of the data collection.
@@ -31,12 +29,26 @@ Models are evaluated under both **supervised** and **cross-lingual transfer lear
 
 Tweets were collected from Nigerian Twitter during the lead-up to and during the **2023 Lagos State governorship election**, targeting discussions around the three main candidates and their supporters. The text is code-switched, predominantly mixing **English and Yoruba** (and sometimes Nigerian Pidgin), reflecting natural online communication patterns among Nigerian users.
 
-### Annotation Scheme
+## Annotation Scheme
 
-| Setting | Labels | Best F1 |
-|---|---|---|
-| Binary | Normal, Offensive | 95.1 |
-| Fine-grained | 4 categories | 70.3 |
+The dataset was annotated using a hierarchical hate speech annotation framework.
+
+### Labels
+
+- Normal
+- Hateful
+- Contempt
+- Abusive
+
+The annotation process was manually conducted and validated for consistency across code-switched Nigerian social media conversations.
+
+## Dataset Access
+
+The EkoHate dataset is not publicly distributed due to ethical and privacy considerations surrounding hate speech and social media data.
+
+Researchers interested in accessing the dataset for academic or research purposes can request access via:
+
+📧 ilevbarecomfort@gmail.com
 
 ### Cross-dataset Transfer
 
